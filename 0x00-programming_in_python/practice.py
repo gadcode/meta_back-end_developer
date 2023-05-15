@@ -108,3 +108,32 @@ else:
     print('Bill is less than 100!')
     
 print('Total bill: ' + str(bill_total))
+
+
+# Light switch example
+current = False
+
+if current:
+    current = False
+    print('Turning light off!')
+else:
+    current = True
+    print('Turning light on!')
+print('\n')
+
+
+# A more advanced example
+loyalty_customer = True
+total_bill = 124
+
+if loyalty_customer and total_bill > 100:
+    # give 20% discount
+    total_bill = total_bill - (float(total_bill) / 100) * 20
+elif total_bill > 100:
+    # give 10% discount
+    total_bill = total_bill - (float(total_bill) / 100) * 10
+else:
+    # Sorry no discount, 5% service charge applied
+    print('Sorry, no discount ...')
+
+print('Total bill: ', float(total_bill))
