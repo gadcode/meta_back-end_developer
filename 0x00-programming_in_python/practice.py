@@ -89,3 +89,22 @@ print(this)
 # If the implementation is easy to explain, it may be a good idea.
 # Namespaces are one honking great idea -- let's do more of those!
 # X------------------X---------------------X----------------------X
+print('\n')
+
+
+# Control flow
+bill_total = 217
+
+discount1 = 11
+discount2 = 20
+
+if bill_total > 100 and bill_total < 200:
+    print('Bill is greater than 100')
+    bill_total = bill_total - discount1
+elif bill_total > 200:
+    print('Bill is greater than 200!')
+    bill_total -= discount2
+else:
+    print('Bill is less than 100!')
+    
+print('Total bill: ' + str(bill_total))
