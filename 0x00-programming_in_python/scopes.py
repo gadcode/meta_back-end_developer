@@ -54,3 +54,9 @@ def get_total(a, b):
 get_total(10, 15)   # 5 5
 get_total(6, 6)     # 5 5
 
+
+# Built-in scope
+# def
+# print
+# for
+# in
